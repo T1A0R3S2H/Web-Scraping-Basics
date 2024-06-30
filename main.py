@@ -17,7 +17,7 @@ driver = webdriver.Chrome(options=options) # Use options argument instead of chr
 # Navigate to the webpage
 driver.get("https://www.imdb.com/title/tt0111161/reviews")
 
-# Get the page source
+# Get page source
 page_source = driver.page_source
 
 # Parse the HTML content using BeautifulSoup
