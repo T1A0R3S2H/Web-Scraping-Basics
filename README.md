@@ -1,7 +1,7 @@
 **Web Scraping Methods**
 ==========================
 
-### Method 1: Using requests and BeautifulSoup
+### Method 1: Using requests, and BeautifulSoup
 ```python
 import requests
 from bs4 import BeautifulSoup
